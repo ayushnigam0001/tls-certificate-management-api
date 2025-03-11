@@ -1,5 +1,12 @@
 # TLS SSL CERTIFICATE AND KEY MANAGEMENT
 
+## Vision
+
+- In order to ease the process of management of the certificate, and make it secure.
+- Scale the application to handle load.
+- Maintain the Trace.
+- This application can also run localy in with the manually configured SQL database.
+
 ## Requirement 
 - Create CA Certificates
 
@@ -13,6 +20,13 @@
 
 - Creating and Storing CSR (Certificate Signing Request)
 
+- Implementation of CRL (Certificate Revocation List)
+
+
+## Technology Stack
+- Java
+- Spring Boot
+- Can Be Hosted Cloud (AWS Hosting Platform) or Locally to adhere the Security Compliance.
 
 
 ### reference
